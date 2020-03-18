@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HarmanAssignment</string>
+    <string-array name="meal">
+        <item>Pizza</item>
+        <item>Bottarga</item>
+        <item>Lasagne</item>
+        <item>Ribollita</item>
+        <item>Ossobuco</item>
+        <item>Risotto</item>
+        <item>Bolani</item>
+        <item>Afghan jalebi</item>
+        <item>Sheer Khurma</item>
+        <item>Mantu</item>
+
+
+    </string-array>
+</resources>

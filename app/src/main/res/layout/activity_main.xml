@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:id="@+id/food"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_margin="16dp"
+            android:layout_marginTop="40dp"
+            android:entries="@array/meal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+
+            android:layout_marginTop="55dp"
+            android:text="Price"
+            android:textStyle="italic"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/heightTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="85dp"
+            android:paddingLeft="30dp"
+            android:textStyle="italic" />
+
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:id="@+id/seekbar"
+            android:max="10"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="190dp"
+            android:text="Tip of the day"
+            android:textStyle="italic"
+            android:textSize="25dp" />
+
+        <RadioGroup
+            android:id="@+id/tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="80dp">
+
+            <RadioButton
+                android:id="@+id/btn1"
+                android:layout_width="249dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:checked="true"
+                android:text="10%"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="20%"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="30%"
+                android:textSize="25dp" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="80dp"
+            android:text="Total Amount"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="380dp"
+            android:paddingLeft="30dp"
+            android:textStyle="italic" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="460dp"
+            android:text="Confirm your order"
+            android:textStyle="italic"
+            android:textSize="25dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:id = "@+id/submit"
+            android:text="Order"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
